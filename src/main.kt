@@ -1,11 +1,8 @@
 fun main (){
-    val a: Int
-    val b: Int
-    val c: Int
-    a= 3
-    b = 2
-    c = a+b
-    print("Sum is " + c)
-
+    val a: Int = 3
+    val b: Int = 2
+    val c: Int = a+b
+    //String Interpolation
+    println("Sum of $a and $b is $c")
 
 }
